@@ -6,7 +6,7 @@ function cadastrar(event) {
     */
     var url
     if (formulario.nome.value && formulario.menssagem.value) {
-        url = `https://api.whatsapp.com/send?phone=5571987364641&text=Olá, me chamo ${formulario.nome.value}. ${formulario.email.value ?? ''} ${formulario.menssagem.value}`;
+        url = `https://api.whatsapp.com/send?phone=5571987364641&text=Olá, me chamo ${formulario.nome.value}. ${formulario.menssagem.value} ${formulario.email.value ?? ''}`;
 
         enviarCagastro(url)
 
