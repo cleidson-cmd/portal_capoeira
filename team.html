@@ -125,118 +125,8 @@
 
                 <h1>Artigos e Trabalhos</h1>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/trabalhos/mestre no.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>História do mestre Nô</h5>
-                            <p class="text-success">Artigo</p>
-                            <div class="team-social text-center">
-                                <a class="btn" href="/feature.html">Abrir</a>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/trabalhos/mestre no.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>História do mestre Nô</h5>
-                            <p class="text-success">Artigo</p>
-                            <div class="team-social text-center">
-                                <a class="btn" href="">Abrir</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/trabalhos/mestre no.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>História do mestre Nô</h5>
-                            <p class="text-success">Trabalho</p>
-                            <div class="team-social text-center">
-                                <a class="btn" href="">Abrir</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/trabalhos/mestre no.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>História do mestre Nô</h5>
-                            <p class="text-success">Trabalho</p>
-                            <div class="team-social text-center">
-                                <a class="btn" href="">Abrir</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/trabalhos/mestre no.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>História do mestre Nô</h5>
-                            <p class="text-success">Trabalho</p>
-                            <div class="team-social text-center">
-                                <a class="btn" href="">Abrir</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/trabalhos/mestre no.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>História do mestre Nô</h5>
-                            <p class="text-success">Trabalho</p>
-                            <div class="team-social text-center">
-                                <a class="btn" href="">Abrir</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/trabalhos/mestre no.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>História do mestre Nô</h5>
-                            <p class="text-success">Trabalho</p>
-                            <div class="team-social text-center">
-                                <a class="btn" href="">Abrir</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row g-4" id="aria-conteudo">
+                <!-- aria do conteudo -->
             </div>
         </div>
     </div>
@@ -312,6 +202,35 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+
+        var corpo = document.getElementById('aria-conteudo');
+
+        fetch('./db/trabalhos.json').then((response) => {
+            response.json().then((trabalhos) => {
+                let trabalho = trabalhos;
+                for (var i = 0; i < trabalho.length; i++) {
+                    corpo.innerHTML += `<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="${trabalho[i]['imagem'] == "" ? "img/Logo capoeira.jpeg" : trabalho[i]['imagem']}" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>${trabalho[i]['nome']}</h5>
+                            <p class="text-success">${trabalho[i]['tipo']}</p>
+                            <div class="team-social text-center">
+                                <a class="btn bg-success" href="/feature.html">Abrir</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+                }
+            })
+        })
+
+
+    </script>
 </body>
 
 </html>
