@@ -2,42 +2,42 @@
     {
         "nome": "História do mestre Nô",
         "imagem": "img/trabalhos/mestre no.png",
-        "tipo": "Artigo",
+        "autor": "Cleidson Santana",
         "pdf": "docs/Norival_Moreira_de_Oliveira.pdf",
         "data_atualizacao": "05/2023"
     },
     {
-        "nome": "Exemplo 1",
+        "nome": "Alguns benefícios da capoeria",
         "imagem": "",
-        "tipo": "trabalho",
-        "pdf": "",
+        "autor": "Cleidson Santana",
+        "pdf": "docs/Alguns benefícios da capoeria.pdf",
         "data_atualizacao": "05/2023"
     },
     {
         "nome": "Exemplo 2",
         "imagem": "",
-        "tipo": "Artigo",
+        "autor": "Exemplo 2",
         "pdf": "",
         "data_atualizacao": "05/2023"
     },
     {
         "nome": "Exemplo 3",
         "imagem": "",
-        "tipo": "trabalho",
+        "autor": "Exemplo 2",
         "pdf": "",
         "data_atualizacao": "05/2023"
     },
     {
         "nome": "Exemplo 4",
         "imagem": "",
-        "tipo": "Artigo",
+        "autor": "Exemplo 2",
         "pdf": "",
         "data_atualizacao": "05/2023"
     },
     {
         "nome": "Exemplo 5",
         "imagem": "",
-        "tipo": "Artigo",
+        "autor": "Exemplo 2",
         "pdf": "",
         "data_atualizacao": "05/2023"
     }
