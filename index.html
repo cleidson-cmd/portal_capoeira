@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
@@ -77,39 +77,43 @@
     </div>
     <!-- Topbar End -->
 
+    <button id="reproduzir" onclick="textoParaAudio('reproduzir', 'aria')">audio</button>
+    <!-- aria de reprodução de audio -->
+    <div id="aria">
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h1 class="m-0 text-success"><img class="img-fluid" src="img/Logo capoeira.jpeg" alt="logo" width="60"
-                    height="80">A.C.C.M.A</h1>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">Sobre</a>
-                <a href="service.html" class="nav-item nav-link">graduções</a>
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                <h1 class="m-0 text-success"><img class="img-fluid" src="img/Logo capoeira.jpeg" alt="logo" width="60"
+                        height="80">A.C.C.M.A</h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">Sobre</a>
+                    <a href="service.html" class="nav-item nav-link">graduções</a>
 
-                <a href="contact.html" class="nav-item nav-link">Contatos</a>
-                <a href="team.html" class="nav-item nav-link">Artigos e Trabalhos</a>
-            </div>
-            <!--     <a href="team.html" class="btn btn-success rounded-0 py-4 px-lg-5 d-none d-lg-block">aqui<i
+                    <a href="contact.html" class="nav-item nav-link">Contatos</a>
+                    <a href="team.html" class="nav-item nav-link">Artigos e Trabalhos</a>
+                </div>
+                <!--     <a href="team.html" class="btn btn-success rounded-0 py-4 px-lg-5 d-none d-lg-block">aqui<i
                     class="fa fa-arrow-right ms-3"></i></a> -->
-        </div>
-    </nav>
-    <!-- Navbar End -->
+            </div>
+        </nav>
+        <!-- Navbar End -->
 
 
-    <!-- Header Start -->
-    <div class="container-fluid header bg-success p-0 mb-5">
-        <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
-            <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
-                <h1 class="display-4 text-white mb-5">Associação Cultural de Capoeira Mestre do
-                    Amanhã Núcleo Itaparica</h1>
-                <!--  <div class="row g-4">
+        <!-- Header Start -->
+        <div class="container-fluid header bg-success p-0 mb-5">
+            <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
+                <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-4 text-white mb-5">Associação Cultural de Capoeira Mestre do
+                        Amanhã Núcleo Itaparica</h1>
+                    <!--  <div class="row g-4">
                     <div class="col-sm-4">
                         <div class="border-start border-light ps-4">
                             <h2 class="text-white mb-1" data-toggle="counter-up">123</h2>
@@ -129,93 +133,95 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <div class="owl-carousel header-carousel">
-                    <div class="owl-carousel-item position-relative">
-                        <img src="img/Logo capoeira.jpeg" alt="logo" width="600" height="400">
-                        <div class="owl-carousel-text">
-                            <h1 class="display-1 text-white mb-0">Itaparica</h1>
-                        </div>
-                    </div>
-                    <!-- <img class="img-fluid" src="img/Logo capoeira.jpeg" alt="logo" width="60" height="100"> -->
-                    <div class="owl-carousel-item position-relative">
-                        <img src="img/primeiro batizado.jpeg" alt="1° batizado" width="600" height="400">
-                        <div class="owl-carousel-text">
-                            <h1 class="display-1 text-white mb-0">1° Batizado</h1>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Header End -->
-
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="d-flex flex-column">
-                        <img class="img-fluid rounded w-75 align-self-end" src="img/treino.webp" alt="">
-                        <!--     <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/logo capoeira.jpeg" alt=""
-                            style="margin-top: -25%;"> -->
-                    </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item position-relative">
+                            <img src="img/Logo capoeira.jpeg" alt="logo" width="600" height="400">
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">Itaparica</h1>
+                            </div>
+                        </div>
+                        <!-- <img class="img-fluid" src="img/Logo capoeira.jpeg" alt="logo" width="60" height="100"> -->
+                        <div class="owl-carousel-item position-relative">
+                            <img src="img/primeiro batizado.jpeg" alt="1° batizado" width="600" height="400">
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">1° Batizado</h1>
+                            </div>
+                        </div>
 
-                    <h1 class="mb-4">Dias de Aulas</h1>
-
-                    <h3 class="mb-4">Terças-feiras e Quintas-feiras </h3>
-                    <h2>Crianças</h2>
-                    <p><i class="far fa-check-circle text-success me-3"></i> Das 17:00 ás 18:30</p>
-                    <h2>Jovens/Adultos</h2>
-                    <p><i class="far fa-check-circle text-success me-3"></i> Das 18:30 ás 20:30</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1>Conheça Nossos Líderes</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-success rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg"
-                        style="width: 100px; height: 100px;">
-                    <div class="testimonial-text rounded text-center p-4 bg-success">
-                        <p>um texto resumo sobre quem sou eu ...</p>
-                        <h5 class="mb-1">Omara</h5>
-                        <span class="fst-italic">Mestra</span>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-success rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg"
-                        style="width: 100px; height: 100px;">
-                    <div class="testimonial-text rounded text-center p-4 bg-success">
-                        <p>um texto resumo sobre quem sou eu ...</p>
-                        <h5 class="mb-1">Gafanhoto</h5>
-                        <span class="fst-italic">Contra Mestre</span>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-success rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg"
-                        style="width: 100px; height: 100px;">
-                    <div class="testimonial-text rounded text-center p-4 bg-success">
-                        <p>um texto resumo sobre quem sou eu ...</p>
-                        <h5 class="mb-1">Tamanduá</h5>
-                        <span class="fst-italic">Contra Mestre</span>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Header End -->
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex flex-column">
+                            <img class="img-fluid rounded w-75 align-self-end" src="img/treino.webp" alt="">
+                            <!--     <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/logo capoeira.jpeg" alt=""
+                            style="margin-top: -25%;"> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+
+                        <h1 class="mb-4">Dias de Aulas</h1>
+
+                        <h3 class="mb-4">Terças-feiras e Quintas-feiras </h3>
+                        <h2>Crianças</h2>
+                        <p><i class="far fa-check-circle text-success me-3"></i> Das 17:00 ás 18:30</p>
+                        <h2>Jovens/Adultos</h2>
+                        <p><i class="far fa-check-circle text-success me-3"></i> Das 18:30 ás 20:30</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1>Conheça Nossos Líderes</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-success rounded-circle p-2 mx-auto mb-4" src="img/lideres/Omara.jpeg"
+                            style="width: 100px; height: 100px;">
+                        <div class="testimonial-text rounded text-center p-4 bg-success">
+                            <p>um texto resumo sobre quem sou eu ...</p>
+                            <h5 class="mb-1">Omara</h5>
+                            <span class="fst-italic">Mestra</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-success rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg"
+                            style="width: 100px; height: 100px;">
+                        <div class="testimonial-text rounded text-center p-4 bg-success">
+                            <p>um texto resumo sobre quem sou eu ...</p>
+                            <h5 class="mb-1">Gafanhoto</h5>
+                            <span class="fst-italic">Contra Mestre</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-success rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg"
+                            style="width: 100px; height: 100px;">
+                        <div class="testimonial-text rounded text-center p-4 bg-success">
+                            <p>um texto resumo sobre quem sou eu ...</p>
+                            <h5 class="mb-1">Tamanduá</h5>
+                            <span class="fst-italic">Contra Mestre</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
     </div>
-    <!-- Testimonial End -->
 
 
     <!-- Footer Start -->
@@ -270,21 +276,23 @@
     <a href="#" class="btn btn-lg btn-success btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a>
 
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 </body>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/tempusdominus/js/moment.min.js"></script>
+<script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+<script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+<script src="js/convert_audio.js"></script>
 
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
@@ -44,7 +44,7 @@
     </div>
     <!-- Spinner End -->
 
-
+    <button id="reproduzir" onclick="textoParaAudio('reproduzir', 'graduacoes')">Audio</button>
     <!-- Topbar Start -->
     <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="row gx-0 d-none d-lg-flex">
@@ -125,7 +125,7 @@
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="graduacoes">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1>Infatil</h1>
@@ -221,10 +221,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/convert_audio.js"></script>
 </body>
 
 <script>
-
     var infantil = document.getElementById('aria-conteudo-infantil');
     fetch('./db/graduacao_infantil.json').then((response) => {
         response.json().then((trabalhos) => {
