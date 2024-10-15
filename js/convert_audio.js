@@ -1,10 +1,14 @@
-function textoParaAudio(idBbotao, IdTexto) {
+function textoParaAudio(IdTexto) {
     let speech = new SpeechSynthesisUtterance()
-    let botaoFalar = document.getElementById(idBbotao)
     let ariaTexto = document.getElementById(IdTexto)
 
-    botaoFalar.addEventListener("click", () => {
+    var falar = window.speechSynthesis
+    if (falar.speaking) {
+        falar.cancel()
+    } else {
         speech.text = ariaTexto.innerHTML;
-        window.speechSynthesis.speak(speech)
-    })
+        falar.speak(speech)
+    }
+
 }
+
