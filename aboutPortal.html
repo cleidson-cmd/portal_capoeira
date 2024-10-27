@@ -52,6 +52,8 @@
 
             </div>
             <div class="col-lg-5 px-5 text-end">
+                <button class="btn-success" onclick="textoParaAudio('sobre-portal')"><i
+                        class="bi bi-volume-up">Audio</i></button>
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-success me-2"></small>
                     <small>(71) 99999-9999</small>
@@ -75,7 +77,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h1 class="m-0 text-success"><img class="img-fluid" src="img/Logo capoeira.jpeg" alt="logo" width="60"
-                    height="80">A.C.C.M.A</h1>
+                    height="80">A. C. C. M. A</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -95,7 +97,7 @@
     </nav>
     <!-- Navbar End -->
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="sobre-portal">
         <div class="container">
             <div class="row g-5">
                 <!--     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -105,18 +107,12 @@
                     </div>
                 </div> -->
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-
-                    <h1 class="mb-4">Sobre o portal</h1>
-
-
+                    <h1 class="mb-4">Sobre o portal:</h1>
                     <h2><i class="far fa-check-circle text-success me-3"></i>Objetivo Geral</h2>
                     <div style="padding: 20px;">
-                        <p>O portal ACCMA núcleo Itaparica, foi desenvolvido por Cleidson Santana com o apoio de todos
-                            os
-                            integrantes do
-                            grupo,
-                            para facilitar o acesso as informações importantes sobre o
-                            grupo.</p>
+                        <p>O portal ACCMA núcleo Itaparica foi desenvolvido por Cleidson Santana, com o apoio de todos
+                            os integrantes do grupo, para facilitar o acesso as informações importantes sobre o grupo e
+                            suas atividades.</p>
                     </div>
 
 
@@ -125,10 +121,9 @@
 
                         <p></i><strong>1. Níveis de Graduação:</strong> Informações
                             detalhadas sobre os diferentes níveis de graduações
-                            disponíveis.</p>
+                            utilizadas no grupo.</p>
                         <p></i><strong>2. Trabalhos e Artigos:</strong> Acesso a publicações
-                            relevantes que podem ajudar os interessados a
-                            entender
+                            relevantes que podem ajudar os interessados a entender
                             melhor conteúdos relacionado a cultura e capoeira.</p>
                         <p></i><strong>3. Contato:</strong> Seção dedicada para facilitar a
                             comunicação entre membros e interessados.</p>
@@ -205,7 +200,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">A.C.C.M.A</a>, todos direitos reservados.
+                        &copy; <a class="border-bottom" href="#">A. C. C. M. A</a>, todos direitos reservados.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
@@ -237,6 +232,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/convert_audio.js"></script>
 </body>
 
 </html>

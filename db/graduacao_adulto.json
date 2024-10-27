@@ -1,52 +1,67 @@
 [
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "1ª Verde",
+        "imagem": "img/cordas-adultos/1.png",
+        "descricao": "Aluno 1º estágio."
     },
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "2ª verde  e amarelo mesclado",
+        "imagem": "img/cordas-adultos/2.png",
+        "descricao": "Aluno 2º estágio."
     },
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "3ª verde e amarelo",
+        "imagem": "img/cordas-adultos/3.png",
+        "descricao": "Aluno 3º estágio."
     },
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "4ª Amarelo",
+        "imagem": "img/cordas-adultos/4.png",
+        "descricao": "Aluno 4º estágio."
     },
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "5ª Azul e amarelo mesclado",
+        "imagem": "img/cordas-adultos/5.png",
+        "descricao": "Intermediário."
     },
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "6ª Azul e amarelo",
+        "imagem": "img/cordas-adultos/6.png",
+        "descricao": "Monitor."
     },
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "7ª Azul",
+        "imagem": "img/cordas-adultos/7.png",
+        "descricao": "Formado."
     },
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "8ª Verde, amarelo e azul (3 tranças)",
+        "imagem": "img/cordas-adultos/8.png",
+        "descricao": "Estagiário."
     },
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "9ª Verde, amarelo, azul e branco (4 Tranças)",
+        "imagem": "img/cordas-adultos/9.png",
+        "descricao": "Professor."
     },
     {
-        "cor": "verde",
-        "imagem": "img/trabalhos/mestre no.png",
-        "descricao": "requisitos da graduação"
+        "cor": "10ª Verde e branco",
+        "imagem": "img/cordas-adultos/10.png",
+        "descricao": "1º Estágio contramestre."
+    },
+    {
+        "cor": "11ª Amarelo e branco",
+        "imagem": "img/cordas-adultos/11.png",
+        "descricao": "2º Estágio contramestre."
+    },
+    {
+        "cor": "12ª Azul e branco",
+        "imagem": "img/cordas-adultos/12.png",
+        "descricao": "Mestrando."
+    },
+    {
+        "cor": "13ª Branco",
+        "imagem": "img/cordas-adultos/13.png",
+        "descricao": "Mestre."
     }
 ]

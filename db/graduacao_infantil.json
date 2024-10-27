@@ -2,51 +2,51 @@
     {
         "cor": "1ª Verde claro",
         "imagem": "img/cordas_infantis/1.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "1º Infantil."
     },
     {
         "cor": "2ª Mesclado verde claro com verde",
         "imagem": "img/cordas_infantis/2.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "2º Infantil."
     },
     {
         "cor": "3ª Verde claro e verde",
         "imagem": "img/cordas_infantis/3.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "3º Infantil."
     },
     {
         "cor": "4ª Mesclado verde claro e amarelo claro",
         "imagem": "img/cordas_infantis/4.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "4º Infantil."
     },
     {
         "cor": "5ª Mesclado verde e amarelo claro e amarelo claro",
         "imagem": "img/cordas_infantis/5.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "5º Infantil."
     },
     {
         "cor": "6ª Verde claro e amarelo",
         "imagem": "img/cordas_infantis/6.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "6º Infantil."
     },
     {
         "cor": "7ª Amarelo claro",
         "imagem": "img/cordas_infantis/7.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "7º Infantil."
     },
     {
         "cor": "8ª Mesclado amarelo claro e azul claro e amarelo claro",
         "imagem": "img/cordas_infantis/8.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "8º Infantil."
     },
     {
         "cor": "9ª Mesclado amarelo claro e azul claro",
         "imagem": "img/cordas_infantis/9.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "9º Infantil."
     },
     {
         "cor": "10ª azul claro e amarelo claro",
         "imagem": "img/cordas_infantis/10.png",
-        "descricao": "requisitos da graduação."
+        "descricao": "10º Infantil."
     }
 ]
